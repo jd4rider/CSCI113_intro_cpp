@@ -21,7 +21,7 @@ int main()
     propertyTax = (assessmentValue / 100) * .64;
 
     cout << "Assessment Value:" << setprecision(2) << setw(8) << right << fixed << '$' << assessmentValue << endl; 
-    cout << "Property Tax:" << setw(14) << right << fixed << '$' << propertyTax << endl;
+    cout << "Property Tax:" << setw(12) << right << fixed << '$' << propertyTax << endl;
 
 	return 0;
 	
